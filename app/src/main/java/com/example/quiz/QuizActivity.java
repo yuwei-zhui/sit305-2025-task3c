@@ -115,8 +115,6 @@ public class QuizActivity extends AppCompatActivity {
     }
 
     private void loadQuestion() {
-        // For the first question, the welcome message remains visible.
-        // For subsequent questions, you may choose to hide it if desired.
         if (currentQuestionIndex > 0) {
             tvWelcome.setVisibility(View.GONE);
         }
